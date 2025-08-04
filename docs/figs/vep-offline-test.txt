@@ -1,0 +1,43 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v114.2
+## Output produced at 2025-08-04 04:16:35
+## Using cache in /home/taral/.vep/homo_sapiens/114_GRCh38
+## Using API version 114, DB version ?
+## ensembl version 114.1117691
+## ensembl-compara version 114.5def311
+## ensembl-funcgen version 114.dc9dfbc
+## ensembl-io version 114.ec3b610
+## ensembl-variation version 114.ac9116d
+## 1000genomes version phase3
+## COSMIC version 100
+## ClinVar version 202409
+## HGMD-PUBLIC version 20204
+## assembly version GRCh38.p14
+## dbSNP version 156
+## gencode version GENCODE 48
+## genebuild version GENCODE48
+## gnomADe version v4.1
+## gnomADg version v4.1
+## polyphen version 2.2.3
+## regbuild version 1.0
+## sift version 6.2.1
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## VEP command-line: vep --cache --database 0 --format vcf --input_file [PATH]/test.vcf --no_stats --offline --output_file [PATH]/vep_test.out.txt
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	Extra
