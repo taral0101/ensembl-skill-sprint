@@ -1,0 +1,28 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.cnf
+.my.cnf
+
+# Generated variant data
+*.tsv
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf.gz.csi
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python cache (if helper scripts are added later)
+__pycache__/
+*.py[cod]
+.pytest_cache/
